@@ -1,6 +1,6 @@
 # Dynamically rotate axis labels in matplotlib
 
-3D plots have (3) axis'.  We have the ability to set tick positions and labels for each axis using the [axis3d](https://matplotlib.org/api/_as_gen/mpl_toolkits.mplot3d.axis3d.Axis)html#mpl-toolkits-mplot3d-axis3d-axis] toolkit in matplot lib.  The API calls would go something like `axes.xaxis.set_xticklabels(['a','b']).  
+3D plots have (3) axis'.  We have the ability to set tick positions and labels for each axis using the [axis3d](https://matplotlib.org/api/_as_gen/mpl_toolkits.mplot3d.axis3d.Axis) toolkit in matplot lib.  The API calls would go something like `axes.xaxis.set_xticklabels(['a','b']).  
 
 Fortunately, there is great control over how those labels are displayed in matplotlib.  We can set rotation, vertical alignment, and horizontal alignment relative to the viewers fixed screen coordinate system like : 
 
